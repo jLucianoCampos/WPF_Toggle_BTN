@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WpfApp1.ToggleButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+
+    <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid>
+
+            <Grid HorizontalAlignment="Left" Height="430" Margin="0,10,0,0" VerticalAlignment="Top" Width="800"/>
+            <Rectangle x:Name="Back" Fill="#FFB0B0B0" HorizontalAlignment="Left" Height="420" Margin="10,10,0,0" RadiusY="195.858" RadiusX="195.858" Stroke="Black" VerticalAlignment="Top" Width="780"/>
+            <Ellipse x:Name="Dot" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="370" Stroke="Black" VerticalAlignment="Center" Width="370" MouseLeftButtonDown="Ellipse_MouseLeftButtonDown" Margin="190,10"/>
+
+        </Grid>
+    </Viewbox>
+</UserControl>
